@@ -18876,6 +18876,10 @@ div#featured-project-carousel {
   border-radius: 10px;
 }
 
+.rn-portfolio.rn-portfolio--flutter--app .inner .thumbnail {
+  aspect-ratio: 3/2;
+}
+
 .rn-portfolio .inner .thumbnail a,
 .rn-portfolio .inner .thumbnail .app-preview {
   width: 100%;
@@ -21729,6 +21733,7 @@ body.white-version {
 
 .white-version a.rn-btn:hover,
 .white-version button.rn-btn {
+  background: var(--gradient-red-hover);
   color: var(--color-white);
 }
 
@@ -22267,7 +22272,7 @@ button:focus-visible {
 .mainmenu-nav .primary-menu {
   flex-wrap: nowrap;
   margin: 0;
-  gap: clamp(8px, 1vw, 20px);
+  gap: clamp(8px, 2vw, 20px);
 }
 
 .mainmenu-nav .primary-menu li {
@@ -22452,7 +22457,6 @@ button.rn-btn {
   padding: 0 20px;
   align-items: center;
   justify-content: center;
-  border: 1px solid transparent;
   border-radius: 8px;
   background: var(--gradient-box-w);
   background-image: none;
@@ -23278,7 +23282,6 @@ button.rn-btn:hover {
 
 .contact-direct-link:hover {
   color: var(--color-heading-wv);
-  background: rgba(117, 22, 218, 0.07);
   transform: translateX(3px);
 }
 
@@ -23416,7 +23419,6 @@ button.rn-btn:hover {
 .enquiry-field textarea:focus {
   border-color: var(--color-primary);
   box-shadow: 0 0 0 3px rgba(117, 22, 218, 0.12);
-  background: rgba(255, 255, 255, 0.55);
 }
 
 .enquiry-submit {
