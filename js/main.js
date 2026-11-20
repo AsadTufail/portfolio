@@ -164,7 +164,7 @@
                 'Project requirements:',
                 data.get('description').trim()
             ].join('\n');
-            const whatsappUrl = 'https://wa.me/923126399437?text=' + encodeURIComponent(message);
+            const whatsappUrl = 'https://wa.me/923065033605?text=' + encodeURIComponent(message);
             const enquiryWindow = window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
 
             if (enquiryWindow) {
